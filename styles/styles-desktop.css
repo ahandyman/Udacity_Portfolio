@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header {
+    display: flex;
+    order: 1;
+    justify-content: space-around;
+    background-color: cadetblue;
+    color: ghostwhite;
+    font-family: 'Bad Script', cursive;
+}
+
+.name {
+    order: 1;
+    align-self: center;
+}
+
+.logo {
+    order: 2;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.container-img-sidebar {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+.container-large-img {
+    order: 2;
+    flex-shrink: 4;
+    display: flex;
+    flex: 4;
+}
+
+.large-img {
+    flex: 5;
+    max-width: 100%;
+    height: auto;
+}
+
+.container-work {
+    order: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.github {
+    order: 1;
+    background-color: burlywood;
+    color: navy;
+}
+
+.portfolio {
+    order: 2;
+    background-color: lightblue;
+    color: navy;
+}
+
+
+.container-bio {
+    order: 3;
+    margin: 10px 15px;
+    padding: 5px;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    box-shadow: 10px 10px 5px lightgrey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    order: 5;
+    margin: 10px 0 10px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.sampleWorkTitle {
+    font-family: 'Lobster', cursive;
+}
+
+.sampleWorkDesc {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-tablet-desktop {
+    display: flex;
+    justify-content: space-around;
+    order: 6;
+}
+
+.container-sample1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px 15px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.sample-description1 {
+    text-align: center;
+    padding: 5px;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-sample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px 15px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.sample2-img {
+    order: 1;
+}
+
+.sample-description2 {
+    text-align: center;
+    order: 2;
+    padding: 5px;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-sample3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px 15px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.sample-description3 {
+    text-align: center;
+    padding: 5px;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    font-family: 'Quicksand', sans-serif;
+}
