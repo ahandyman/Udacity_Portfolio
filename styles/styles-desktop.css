@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: column;
 }
 
-.container-header {
+.header {
   display: flex;
   order: 1;
   justify-content: space-around;
@@ -171,4 +171,10 @@ hr {
   /* max- */
   height: 125px;
   max-width: 100%;
+}
+
+footer {
+  order: 7;
+  padding: 20px;
+  text-align: center;
 }

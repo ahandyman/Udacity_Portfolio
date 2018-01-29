@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: column;
-  /*background-color: lightgrey;*/
 }
 
-.container-header {
+.header {
   display: flex;
   justify-content: space-around;
   background-color: cadetblue;
@@ -26,14 +25,11 @@
 
 .name {
   order: 1;
-  /*flex-grow: 3;*/
   align-self: center;
-  /*align-items: flex-end;*/
 }
 
 .logo {
   order: 2;
-  /*flex-grow: 1;*/
   border-radius: 100%;
   margin: 10px 0 10px 0;
   height: 100px;
@@ -47,12 +43,10 @@
 .large-img {
   max-width: 100%;
   height: 300px;
-  /*    min-height: 100%;*/
 }
 
 .container-work {
   display: flex;
-  /*margin-top: 10px;*/
 }
 
 .work {
@@ -63,18 +57,14 @@
 
 .github {
   order: 1;
-  /*flex-grow: 1;*/
   background-color: burlywood;
   color: navy;
-  /*text-align: center;*/
 }
 
 .portfolio {
   order: 2;
-  /*flex-grow: 1;*/
   background-color: lightblue;
   color: navy;
-  /*text-align: center;*/
 }
 
 .container-bio {
@@ -110,7 +100,6 @@ hr {
 
 .sample-description1 {
   text-align: center;
-  /*margin: 5px;*/
   padding: 5px;
   border-radius: 2%;
   border: 1px solid lightgrey;
@@ -156,7 +145,6 @@ hr {
 
 .sample-description3 {
   text-align: center;
-  /*margin: 5px;*/
   padding: 5px;
   border-radius: 2%;
   border: 1px solid lightgrey;
@@ -168,4 +156,9 @@ hr {
 .img3 {
   height: 100px;
   width: 100px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
 }
